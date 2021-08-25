@@ -1,0 +1,65 @@
+body{
+    font-size: 16px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#header-nav{
+    background-color: grey;
+    border-radius: 0;
+    border: 0;
+}
+
+.navbar-brand {
+    padding-top: 25px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+    color: black;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+}
+
+#collapsable-nav {
+    background-color: grey;
+}
+#nav-list {
+    background-color: bisque;
+    margin: 0px;
+}
+
+div h2{
+    margin: 15px auto 20px;
+    /* text-align: center; */
+}
+
+#food-content {
+    width: 100%;
+    overflow: hidden;
+    background-color: cadetblue;
+}
+
+.row span{
+    position: absolute;
+    width: 100%;
+    top: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#chicken-tile {
+    padding-top: 15px;
+    height: 1000px;
+    position: relative;
+}
+
+.words {
+    padding: 15px;
+}
